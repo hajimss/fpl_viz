@@ -6,6 +6,7 @@ const initialState = {
 
 export const managerSlice = createSlice({
   name: "managerID",
+  mode: "no-cors",
   initialState,
   reducers: {
     inputID: (state, action) => {
