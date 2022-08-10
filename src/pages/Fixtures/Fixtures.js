@@ -1,4 +1,4 @@
-import { Container, List, ListItem, Paper, Typography } from "@mui/material";
+import { List, ListItem, Typography } from "@mui/material";
 import { useGetGeneralDataQuery } from "../../fpl_api/DataSlice";
 import React from "react";
 import Loading from "../../utils/components/Loading";
