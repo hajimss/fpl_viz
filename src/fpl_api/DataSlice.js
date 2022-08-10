@@ -2,9 +2,8 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const fantasyApi = createApi({
   reducerPath: "fantasyApi",
-  mode: "no-cors",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://fantasy.premierleague.com/api/",
+    baseUrl: "https://fantasy-viz-proxy.herokuapp.com/?endpoint=",
   }),
   endpoints: (builder) => ({
     getManagerDataByID: builder.query({
