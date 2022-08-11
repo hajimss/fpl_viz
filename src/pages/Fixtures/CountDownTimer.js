@@ -17,7 +17,7 @@ const Individual = styled(Paper)({
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
-  width: "1.5rem",
+  width: "10vw",
   margin: "0.5rem",
   padding: "0.5rem",
 });
