@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom";
 import ErrorIndex from "./pages/Error/ErrorIndex";
 import FixturesIndex from "./pages/Fixtures/FixturesIndex";
 import HomeIndex from "./pages/Home/HomeIndex";
+import StatsIndex from "./pages/Stats/StatsIndex";
+import LinkModal from "./utils/components/LinkModal";
 
 const theme = createTheme({
   typography: {
@@ -21,7 +23,9 @@ function App() {
         <Route path="/" element={<HomeIndex />} />
         <Route path="/fixtures" element={<FixturesIndex />} />
         <Route path="/error" element={<ErrorIndex />} />
+        <Route path="/stats" element={<StatsIndex />} />
       </Routes>
+      <LinkModal />
     </ThemeProvider>
   );
 }

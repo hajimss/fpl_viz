@@ -12,7 +12,6 @@ const HomeIndex = () => {
       </Typography>
       <Form />
       <Manager />
-      <LinkModal to="fixtures" />
     </Container>
   );
 };
