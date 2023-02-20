@@ -24,7 +24,7 @@ const TopThreexG = () => {
 
   if (isLoading) return <Loading />;
 
-  const info = data.map((d) => {
+  const info = data["result"].map((d) => {
     var xG = parseFloat(d.xG).toFixed(3);
 
     return (
